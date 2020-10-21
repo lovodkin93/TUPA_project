@@ -1,3 +1,15 @@
 [submodule "tupa"]
 	path = tupa
 	url = https://github.com/lovodkin93/tupa.git
+[submodule "UCCA_data/UCCA_English-20K"]
+	path = UCCA_data/UCCA_English-20K
+	url = https://github.com/lovodkin93/UCCA_English-20K.git
+[submodule "UCCA_data/UCCA_French-20K"]
+	path = UCCA_data/UCCA_French-20K
+	url = https://github.com/lovodkin93/UCCA_French-20K.git
+[submodule "UCCA_data/UCCA_English-Wiki"]
+	path = UCCA_data/UCCA_English-Wiki
+	url = https://github.com/lovodkin93/UCCA_English-Wiki.git
+[submodule "UCCA_data/UCCA_German-LPP"]
+	path = UCCA_data/UCCA_German-LPP
+	url = https://github.com/lovodkin93/UCCA_German-LPP.git
