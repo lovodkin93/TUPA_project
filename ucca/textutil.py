@@ -85,15 +85,15 @@ def get_nlp(lang="en"):
 def load_spacy_model(model):
     if model == "ru":
         try:
-            #from spacy.lang.ru import Russian
-            #return Russian()
+            from spacy.lang.ru import Russian
+            return Russian()
             # import stanfordnlp
             # from spacy_stanfordnlp import StanfordNLPLanguage
             # snlp = stanfordnlp.Pipeline(lang="ru", models_dir="/cs/labs/oabend/lovodkin93/TUPA1_project/stanfordnlp_resources")
             # return StanfordNLPLanguage(snlp)
 
-            import stanza
-            return stanza.Pipeline(lang='ru', processors='tokenize,pos,lemma,depparse,ner', models_dir="//stanza_resources")
+            #import stanza
+            #return stanza.Pipeline(lang='ru', processors='tokenize,pos,lemma,depparse,ner', models_dir="//stanza_resources")
         except OSError as e:
             raise OSError("Failed to get spaCy Russian model. Install it using "
                           "pip install git+https://github.com/aatimofeev/spacy_russian_tokenizer.git") from e
